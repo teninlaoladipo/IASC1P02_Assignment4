@@ -10,14 +10,14 @@
 #header{
   width: 750px;
   height: 50px;
-  font-size: 40px;
   letter-spacing: 4px;
   font-weight: 100;
+  font-family: 'Century Gothic', sans-serif;
 }
 
 #leftbody{
   width: 75%;
-  height: 750px;
+  height: 650px;
   float: left;
 }
 
@@ -96,7 +96,12 @@
   bottom: 550px;
 }
 
-#footer{
-  width:750px;
-  height: 50px;
+.box4{
+  width: 400px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 900px;
+  bottom: 620px;
+  color: black;
 }

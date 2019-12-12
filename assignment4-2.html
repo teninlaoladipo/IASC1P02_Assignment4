@@ -9,6 +9,7 @@
     <title> My Story</title>
     <link href="assignment4-2.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="https://use.fontawesome.com/d1341f9b7a.js"> </script>
+
   </head>
 
       <body>
@@ -41,6 +42,7 @@
               I am still hoping that in the next few years they will find a cure for this autoimmune disease. But for now I can live with scanning my blood sugars using my glucose sensor and pushing buttons on my pump to deliver
               insulin. I'm just glad technology is advancing and more people are being informed. Thank you for reading my story.
             </p>
+          <p> To return to the home page, <a href="assignment4-1.html">Click here</a> </p>
 
           </div>
 
@@ -51,11 +53,22 @@
 
               <img class="sensor" src="sensor.jpeg" alt="sensor"/>
 
+
+          </div>
+      		<div class="box4">
+            <h3> Try carb counting! </h3>
+          <form name="Mathematics">
+      				<input type="text" name="firstNumber" id="firstNumber" />
+      				<button type="button" id="addition" onclick="sum()">+</button>
+      				<button type="button" id="subtraction" onclick="difference()">-</button>
+      				<button type="button" id="multiplication" onclick="product()">x</button>
+      				<button type="button" id="division" onclick="quotient()">/</button>
+      				<input type="text" name="secondNumber" id="secondNumber" />
+      			</form>
+      			<p id="Answer"> Output Here</p>
           </div>
 
-          <div id="footer">
-            <p> To return to the home page, <a href="assignment4-1.html">Click here</a> </p>
-          </div>
+          <script type="text/javascript" src="assignment4.js"> </script>
 
       </body>
 </html>

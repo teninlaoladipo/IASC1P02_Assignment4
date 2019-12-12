@@ -1,15 +1,25 @@
-#wrapper{
-  width:750px;
-  height: 750px;
+body {
+  margin:0;
+  padding: 0;
+  background:url(cloud.jpeg) no-repeat;
+  background-size:cover;
 }
 
-#grad {
-  background-image: linear-gradient(rgb(106, 90, 205,0)), rgb(106, 90, 205,1));
+.box{
+  width:450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
 }
 
-#header{
-  width: 750px;
-  height: 50px;
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 250px;
 }
 
 .box h1{
@@ -18,10 +28,8 @@
   font-weight: 100;
 }
 
-#leftbody{
-  width: 750px;
-  height: 750px;
-  float: left;
+.box p{
+  text-align: justify;
 }
 
 ul{
@@ -29,16 +37,16 @@ ul{
   padding: 0;
 }
 
-.box1 li{
+.box li{
   display: inline-block;
   margin: 6px;
   list-style: none;
 }
 
-.box1 li a{
+.box li a{
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 60px;
   transition: all ease-in-out 250ms;
 }
 
