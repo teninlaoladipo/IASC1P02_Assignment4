@@ -1,3 +1,102 @@
 #grad {
-  background-image: linear-gradient(rgb(106, 90, 205,0), rgb(106, 90, 205,1));
+  background-image: linear-gradient(rgb(30,144,255,0), rgb(30,144,255,1));
+}
+
+#wrapper{
+  width:750px;
+  height: 750px;
+}
+
+#header{
+  width: 750px;
+  height: 50px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+#leftbody{
+  width: 75%;
+  height: 750px;
+  float: left;
+}
+
+.box1{
+  width:500px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 0.5px;
+  margin: auto;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box1 p{
+  text-align: justify;
+}
+
+.box2{
+  width:500px;
+  height:285px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 0.5px;
+  margin: auto;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box2 p{
+  text-align: justify;
+}
+
+.box3{
+  width:500px;
+  height: 125px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 0.5px;
+  margin: auto;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box3 p{
+  text-align: justify;
+}
+
+#rightbody{
+  width: 25%;
+  height: 650px;
+  float: right;
+}
+
+.kit{
+  width: 250px;
+  height: 200px;
+  position: relative;
+  left: 200px;
+  bottom: 635px;
+}
+
+.pump{
+  width: 300px;
+  height:200px;
+  position: relative;
+  left: 200px;
+  bottom: 600px;
+}
+
+.sensor{
+  width: 250px;
+  height:200px;
+  position: relative;
+  left: 200px;
+  bottom: 550px;
+}
+
+#footer{
+  width:750px;
+  height: 50px;
 }
